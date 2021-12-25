@@ -45,15 +45,3 @@ function draw() {
   ellipse(150, 360, 210, 60);
   pokeList[2].drawActive();
 }
-  fill('#E1C7AA');
-  ellipse(450, 145, 230, 80);
-  fill('#3DE87B');
-  ellipse(450, 145, 210, 60);
-  pokeList[1].drawEnemy();
-  pokeList[2].active = true;
-  fill('#E1C7AA');
-  ellipse(150, 360, 230, 80);
-  fill('#3DE87B');
-  ellipse(150, 360, 210, 60);
-  pokeList[2].drawActive();
-}
