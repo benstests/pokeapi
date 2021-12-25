@@ -5,7 +5,7 @@ let pokeList = [];
 let dataCount = 1;
 
 function preload() {
-  for (let i = 1; i < 500; i++) {
+  for (let i = 1; i < 50; i++) {
     let link = "https://pokeapi.co/api/v2/pokemon/" + i;
     loadJSON(link, gotData);
   }
@@ -37,7 +37,7 @@ function draw() {
   ellipse(450, 145, 230, 80);
   fill('#3DE87B');
   ellipse(450, 145, 210, 60);
-  pokeList[100].drawEnemy();
+  pokeList[10].drawEnemy();
   pokeList[2].active = true;
   fill('#E1C7AA');
   ellipse(150, 360, 230, 80);
